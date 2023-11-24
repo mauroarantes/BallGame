@@ -7,22 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		067ADDE22B11212C009576F0 /* MotionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067ADDE12B11212C009576F0 /* MotionHelper.swift */; };
+		067ADDE42B112156009576F0 /* VectorOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067ADDE32B112156009576F0 /* VectorOperations.swift */; };
+		067ADDE92B11240F009576F0 /* chainsaw.wav in Resources */ = {isa = PBXBuildFile; fileRef = 067ADDE62B11240F009576F0 /* chainsaw.wav */; };
+		067ADDEA2B11240F009576F0 /* jump.wav in Resources */ = {isa = PBXBuildFile; fileRef = 067ADDE72B11240F009576F0 /* jump.wav */; };
+		067ADDEB2B11240F009576F0 /* background.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 067ADDE82B11240F009576F0 /* background.mp3 */; };
 		06C5BF382B110B470062FADC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C5BF372B110B470062FADC /* AppDelegate.swift */; };
-		06C5BF3A2B110B470062FADC /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 06C5BF392B110B470062FADC /* art.scnassets */; };
 		06C5BF3C2B110B470062FADC /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C5BF3B2B110B470062FADC /* GameViewController.swift */; };
 		06C5BF3F2B110B470062FADC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06C5BF3D2B110B470062FADC /* Main.storyboard */; };
 		06C5BF412B110B480062FADC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06C5BF402B110B480062FADC /* Assets.xcassets */; };
 		06C5BF442B110B480062FADC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06C5BF422B110B480062FADC /* LaunchScreen.storyboard */; };
+		06C5BF4B2B110C070062FADC /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 06C5BF4A2B110C070062FADC /* art.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		067ADDE12B11212C009576F0 /* MotionHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionHelper.swift; sourceTree = "<group>"; };
+		067ADDE32B112156009576F0 /* VectorOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VectorOperations.swift; sourceTree = "<group>"; };
+		067ADDE62B11240F009576F0 /* chainsaw.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = chainsaw.wav; sourceTree = "<group>"; };
+		067ADDE72B11240F009576F0 /* jump.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = jump.wav; sourceTree = "<group>"; };
+		067ADDE82B11240F009576F0 /* background.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = background.mp3; sourceTree = "<group>"; };
 		06C5BF342B110B470062FADC /* BallGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BallGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06C5BF372B110B470062FADC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		06C5BF392B110B470062FADC /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		06C5BF3B2B110B470062FADC /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		06C5BF3E2B110B470062FADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		06C5BF402B110B480062FADC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06C5BF432B110B480062FADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		06C5BF4A2B110C070062FADC /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +46,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		067ADDE52B11240F009576F0 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				067ADDE62B11240F009576F0 /* chainsaw.wav */,
+				067ADDE72B11240F009576F0 /* jump.wav */,
+				067ADDE82B11240F009576F0 /* background.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		06C5BF2B2B110B470062FADC = {
 			isa = PBXGroup;
 			children = (
@@ -56,11 +76,14 @@
 			isa = PBXGroup;
 			children = (
 				06C5BF372B110B470062FADC /* AppDelegate.swift */,
-				06C5BF392B110B470062FADC /* art.scnassets */,
+				067ADDE32B112156009576F0 /* VectorOperations.swift */,
+				067ADDE12B11212C009576F0 /* MotionHelper.swift */,
 				06C5BF3B2B110B470062FADC /* GameViewController.swift */,
+				06C5BF4A2B110C070062FADC /* art.scnassets */,
 				06C5BF3D2B110B470062FADC /* Main.storyboard */,
 				06C5BF402B110B480062FADC /* Assets.xcassets */,
 				06C5BF422B110B480062FADC /* LaunchScreen.storyboard */,
+				067ADDE52B11240F009576F0 /* Sounds */,
 			);
 			path = BallGame;
 			sourceTree = "<group>";
@@ -123,9 +146,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06C5BF3A2B110B470062FADC /* art.scnassets in Resources */,
+				067ADDEA2B11240F009576F0 /* jump.wav in Resources */,
 				06C5BF442B110B480062FADC /* LaunchScreen.storyboard in Resources */,
+				06C5BF4B2B110C070062FADC /* art.scnassets in Resources */,
 				06C5BF412B110B480062FADC /* Assets.xcassets in Resources */,
+				067ADDE92B11240F009576F0 /* chainsaw.wav in Resources */,
+				067ADDEB2B11240F009576F0 /* background.mp3 in Resources */,
 				06C5BF3F2B110B470062FADC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +163,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				067ADDE42B112156009576F0 /* VectorOperations.swift in Sources */,
 				06C5BF3C2B110B470062FADC /* GameViewController.swift in Sources */,
 				06C5BF382B110B470062FADC /* AppDelegate.swift in Sources */,
+				067ADDE22B11212C009576F0 /* MotionHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
